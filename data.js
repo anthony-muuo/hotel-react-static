@@ -3,7 +3,7 @@ const hotelDetails = [
     title: "Cheeseburger",
     description:
       "A juicy grilled beef patty topped with cheese and fresh veggies.",
-    image: "./images/food9.jpg",
+    image: "/images/food9.jpg",
     discount: 15,
     ratings: 4.5,
     price: 450,
@@ -11,7 +11,7 @@ const hotelDetails = [
   {
     title: "Fried Chicken",
     description: "Crispy golden chicken seasoned with Southern spices.",
-    image: "./images/food8.jpg",
+    image: "/images/food8.jpg",
     discount: 25,
     ratings: 4.8,
     price: 520,
@@ -19,7 +19,7 @@ const hotelDetails = [
   {
     title: "Mac & Cheese",
     description: "Creamy macaroni baked in rich cheddar cheese sauce.",
-    image: "./images/food1.jpg",
+    image: "/images/food1.jpg",
     discount: 10,
     ratings: 4.2,
     price: 400,
@@ -27,7 +27,7 @@ const hotelDetails = [
   {
     title: "Hot Dog",
     description: "Classic hot dog in a bun with mustard and relish.",
-    image: "./images/food2.jpg",
+    image: "/images/food2.jpg",
     discount: 18,
     ratings: 4.2,
     price: 350,
@@ -35,7 +35,7 @@ const hotelDetails = [
   {
     title: "Buffalo Wings",
     description: "Spicy and tangy chicken wings served with ranch dip.",
-    image: "./images/food3.jpg",
+    image: "/images/food3.jpg",
     discount: 22,
     ratings: 4.7,
     price: 480,
@@ -43,7 +43,7 @@ const hotelDetails = [
   {
     title: "Pancakes",
     description: "Fluffy pancakes served with syrup and a pat of butter.",
-    image: "./images/food4.jpg",
+    image: "/images/food4.jpg",
     discount: 12,
     ratings: 4.3,
     price: 300,
@@ -51,7 +51,7 @@ const hotelDetails = [
   {
     title: "BBQ Ribs",
     description: "Tender pork ribs glazed with smoky BBQ sauce.",
-    image: "./images/food5.jpg",
+    image: "/images/food5.jpg",
     discount: 30,
     ratings: 4.9,
     price: 650,
@@ -59,7 +59,7 @@ const hotelDetails = [
   {
     title: "Grilled Cheese",
     description: "Melted cheese between two buttery, grilled bread slices.",
-    image: "./images/food6.jpg",
+    image: "/images/food6.jpg",
     discount: 14,
     ratings: 4.1,
     price: 320,
@@ -67,7 +67,7 @@ const hotelDetails = [
   {
     title: "Clam Chowder",
     description: "Creamy New England soup loaded with clams and potatoes.",
-    image: "./images/food7.jpg",
+    image: "/images/food7.jpg",
     discount: 17,
     ratings: 4.6,
     price: 500,
