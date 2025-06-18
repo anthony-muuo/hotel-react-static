@@ -40,3 +40,75 @@ body {
   border-radius: 0.4rem;
   color: white;
 }
+
+.hero-container {
+  width: 35rem;
+  height: 30rem;
+  overflow: hidden;
+  border-radius: 1rem;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+}
+.food-image > img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.food-image {
+  position: relative;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  background-color: orange;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.star-rating {
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  background-color: white;
+  color: #222;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.food-image > img:hover {
+  cursor: pointer;
+}
+.food-details {
+  padding: 0.6rem 1rem;
+}
+.food-title {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 0.2rem 0rem;
+}
+.food-price {
+  padding: 1rem 0rem;
+  color: #e6210f;
+}
+.food-desc {
+  font-size: 1.4rem;
+}
+
+.food-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 0rem;
+}
+.footer {
+  text-align: center;
+  font-size: 1.4rem;
+}
