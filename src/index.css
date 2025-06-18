@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  padding: 3rem 10rem;
+  font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.leftside-header {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.parent {
+  display: flex;
+  gap: 0.6rem;
+  cursor: pointer;
+}
+.highlighted {
+  color: #970d01;
+  background-color: #db8078;
+  opacity: 0.9;
+  padding: 0.5rem 0.6rem;
+  border-radius: 0.3rem;
+}
+.view-button {
+  background-color: #e6210f;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  color: white;
+}
